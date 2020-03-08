@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="icon" href="https://gaeun917.github.io/assets/img/projects/badget/icon-react.png" type="" />
+
+    <title>React</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--
+Ramayana CSS Template
+https://templatemo.com/tm-529-ramayana
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                <!-- Header -->
+                <header id="header">
+                    <div class="logo">
+                        <a href="index.html">React</a>
+                    </div>
+                </header>
+                <!-- Page Heading -->
+                <div class="page-heading">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>React y el estado de las vistas</h1>
+                                <p>Una de las principales ventajas es que las vistas de React tengan el mínimo estado posible, esto se puede entender de manera muy sencilla, un componente de tipo checkbox, solo tiene dos estados, activo e inactivo. Es importante
+                                    aclarar que el único estado que ha de almacenar la vista es el estado de UI, como el del ejemplo anterior.</p>
+                                <p>Las vistas que necesiten estados más complejos han de componerse a su vez de subvistas, y será este componente el encargado de iniciar el estado de las vistas. A partir de ahí son las propias vistas las encargadas de cambiar
+                                    su estado de manera que el estado se puede considerar privado.</p>
+                                <p>Otra característica interesante de React es que una vez se modifica el estado del componente, vuelve a renderizarlo de 0 con ese nuevo estado en un DOM a parte que han denominado DOM virtual, a partir de ahí usan un algoritmo
+                                    diff para ver las diferencias con el DOM real, y genera los cambios mínimos necesarios para modificar el DOM real al estado deseado. Esto no incurre en una gran penalización de uso de memoria o rendimiento como sucede
+                                    en otros frameworks que usan otras técnicas como dirty checking o el cambio entero del DOM..</p>
+                                <p>
+                                    Esto nos facilita mucho la vida ya que nosotros solo tenemos que saber pintar la vista en los diferentes estados y no tenemos que preocuparnos por la transición entre dichos estados y todos los fallos que eso puede provocar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tables -->
+
+
+
+
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+
+            <div class="inner">
+
+                <!-- Menu -->
+                <!-- Menu -->
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">Introducción</a></li>
+                        <li><a href="simple_page.html">¿De que va React?</a></li>
+                        <li><a href="shortcodes.html">React y el estado de las vistas</a></li>
+                        <li>
+                            <span class="opener">Información sobre Flux</span>
+                            <ul>
+                                <li><a href="flux.html">Actions</a></li>
+                                <li><a href="flux.html">Dispatcher</a></li>
+                                <li><a href="flux.html">Stores</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+
+
+                <!-- Footer -->
+                <footer id="footer">
+                    <img src="https://www.technoscore.com/images/services/react-js-icon.png" alt="">
+                </footer>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/transition.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+
+</body>
+
+</html>
